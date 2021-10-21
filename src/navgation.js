@@ -11,7 +11,7 @@ export default function Navigation() {
  
       <Link  to="/about"><li>ABOUT</li></Link>
     
-      <Link   className="text" to ="/home"> <b>for the love of bread</b></Link>
+      <Link   className="text-size" to ="/home"> <b>for the love of bread</b></Link>
         <Link to="/Episode"><li>EPISODE</li></Link>
         
         
