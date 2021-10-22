@@ -1,5 +1,6 @@
 import React from 'react'
 import Wave from 'react-wavify'
+import Particles from 'react-particles-js';
 export default function home() {
     return (
         <div>
@@ -13,6 +14,17 @@ export default function home() {
           points: 3
         }}
   />
+  <Particles 
+                params={{
+                    polygon: {
+                        enable: true,
+                        type: 'inside',
+                        move: {
+                            radius: 10
+                        },
+                        url: 'path/to/svg.svg'
+                    }
+                }}/>
         </div>
     )
 }

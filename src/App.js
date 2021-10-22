@@ -6,6 +6,7 @@ import about from "./about.js"
 import episode from "./Episode.js"
 import home from "./Home.js"
 
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
           <Route path ="/" component={home}/>
           <Route path ="/Episode" component={episode}/>
       </BrowserRouter>
-    
+      
+
     </div>
   );
 }
